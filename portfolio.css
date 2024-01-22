@@ -1,0 +1,223 @@
+* {box-sizing: border-box;} 
+/*This alows padding and borders to be considered part of the columnn
+width. However margin is considered seperate. "This is how to comment in CSS"*/
+body {  
+        
+    background-color:  rgb(237, 240, 243);
+    margin: 0;}
+#container { font-family: Verdana, Geneva, sans-serif;
+             font-size: 12px;
+             color: #333;
+             
+            } 
+header { background-color: rgb(255, 255, 255);
+         padding: 15px;
+         color: #FFF;
+        }
+
+.special { background-color: #09F;
+           margin: 5px;
+           padding: 5px;
+        color: #FFF;
+        float: right;}
+
+nav {
+      padding: 6px;
+     
+      margin: 15px;
+      margin-top: 5px;  }
+
+
+h1 { font-size: 18px;
+     color: #09F;}
+h2 { font-size: 16px;
+     color: #036;}
+h3 { font-size: 14px;
+     color: #333;}
+nav ul{list-style-type: none;
+        margin:0;
+        padding:0; 
+        float: right;}
+nav li{padding: 7px;
+        display: inline;
+        
+        padding-top: 0px;
+        }
+nav li a{text-decoration: none;
+        color: rgb(13, 13, 13);}
+nav a:hover {
+            text-decoration: underline;   
+            color: #09F;}
+
+footer a:link {color:#09F;}
+footer a:visited {color:white;
+                background-color: #09F;}
+footer li {padding-right: 15px;
+            display: inline;}
+footer ul {margin: 0;}
+
+#colOne {width: 40%;
+        height: 650px;    
+    
+        float:left; 
+        background-color: rgb(228, 218, 207);
+                    }
+#colTwo {width: 60%;
+      
+        float: right;
+        height: 650px;
+        background-color: #FFF; }
+#box { background-color:  rgb(243, 236, 231);
+    width: 250px;
+    
+    float: right;    
+    height: 450px;
+    box-shadow: 1px 1px 0px 0px rgb(248, 245, 245);}
+#box2 {background-color:  rgb(243, 236, 231);
+    height: 450px;
+    float: left; 
+    width: 50px; 
+    box-shadow: 1px 0px 0px 0px rgb(248, 245, 245); }
+#box3 {margin-left: 100px;
+    height: 436.73436px;}
+#socialmediabox{background-color: #FFF;
+    width: 250px;
+    
+    float: right;    
+    height: 50px;
+    box-shadow: 1px 1px 0px 0px rgb(248, 245, 245);
+    padding-bottom: 15px;
+                         }
+
+#socialmediabox2{background-color: #FFF;
+        width: 50px;
+        
+        float: left;    
+        height: 50px;
+        box-shadow: 1px 1px 0px 0px rgb(248, 245, 245); }
+
+#socialmediabox a {margin: 10px;
+                  float: right; }
+
+#box a {margin: 87.5px;
+        }
+#box3 h1 {padding-left: 16px;}
+#box3 p{margin-right: 20px;}
+
+#box h1, #box h2 {text-align: center;
+        margin-left: 40px;
+        color: black}
+
+#box hr {width: 2cm;
+        text-align: center;
+        margin-left: 111px;
+        }
+
+#box h2 {font-family: 'Times New Roman', Times, serif;
+        font-size: 13px;}
+#button a.resume {
+        color: #FFF;
+        background:#09F; 
+        padding : 6px;
+        margin : 10px;
+        border-radius: 25px;
+        text-decoration: none;}
+#button a.contact {
+                border-style: solid;
+                border-color:  #036;
+                border-width: 1px;
+                padding : 5px;
+                margin : 10px;
+                color: #036;
+                border-radius: 25px;
+                text-decoration: none;}
+#homepage1 h3 { 
+        text-align: center;
+        color: #ac9797;
+        margin-top: 30px;}
+        
+        
+#homepage1 {background-color: black;
+       height: 1200px;}
+
+#subscribe input[type="email"] {width: 300px;
+                                margin-right: 100px;}
+#subscribe label[for="email"]  {margin-left: 251px;}  
+#subscribe input[type="submit"] {padding: 6px 129px;
+                                margin-left: 400px;}
+#subscribe hr {width: 100px;
+                float: left;
+                margin-left: 50px;
+                }
+#subscribe h1 {margin-left: 5px;}
+footer {background-color: #003366;
+       
+        }
+
+#footerNav {float: left;
+             padding: 15px;
+             width: 60%;
+             background-color: #036;}
+#footerCopyright {float: right;
+                 padding: 5px;
+                 width: 40%;
+                background-color: #036;}
+
+header h1 {float: right;
+        margin: 20px;
+        margin-right: 251px;}
+
+form {background-color: rgb(238, 238, 238);}
+
+fieldset.formTwo {background-color: rgb(245, 240, 240);}
+
+fieldset.formOne label {float : left;
+                       margin-left: 92px;
+                        padding: 7px;}
+.contactform {width: 100%;}
+
+fieldset.formTwo label{float : left;
+        margin-left: 92px;}
+        
+.resume {background-color: rgb(228, 218, 207);
+        padding: 10px;}
+.resume h1 {text-align: center;}
+.resume a {float: right;
+        margin-right: 30px;}
+#job h1 {float: left;
+        margin: 0;}
+#job h2 {float: left;
+margin: 0;}
+#job {background-color: #FFF;
+       padding: 10px; }
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+		padding: 3px 100px;
+		margin-right: 66px;
+                margin-bottom: 6px;
+                float: right;}
+input[type="submit"] {           
+       
+                        background:#09F; 
+                        padding : 5px;
+                        margin : 10px;
+                        border-radius: 5px; 
+                        padding: 9px 159px;
+                        margin-left: 349px;}
+input[type="email"]:focus {
+                        background-color:  #8CF;
+                        border: 3px solid #036;
+                        }
+
+input[type="text"]:focus {
+                        background-color:  #8CF;
+                        border: 3px solid #036;}
+input[type="tel"]:focus {
+                        background-color:  #8CF;
+                        border: 3px solid #036;}
+select:focus {background-color:  #8CF;
+        border: 3px solid #036;}
+
+textarea:focus {background-color:  #8CF;
+        border: 3px solid #036;}
+
